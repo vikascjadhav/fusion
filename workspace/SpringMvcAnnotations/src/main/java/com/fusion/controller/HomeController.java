@@ -1,4 +1,4 @@
-package com.fusion;
+package com.fusion.controller;
 
 import java.util.Date;
 
