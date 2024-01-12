@@ -20,8 +20,7 @@ This repository provides examples of dependency injection in the Spring Framewor
   - [2. Setter Injection](#2-setter-injection)
   - [3. Field Injection](#3-field-injection)
   - [4. Method Injection](#4-method-injection)
-- [Usage](#usage)
-- [License](#license)
+
 
 ## Introduction
 
