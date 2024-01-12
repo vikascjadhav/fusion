@@ -76,7 +76,7 @@ public class MyService {
     // other methods...
 }
 ```
-#### Code Example 4
+### 4. Method Injection
 
 ```java
 @Service
