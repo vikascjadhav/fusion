@@ -51,8 +51,6 @@ public class MyService {
 
 ### 2. Setter Injection
 
-#### Code Example
-
 ```java
 @Service
 public class MyService {
@@ -66,3 +64,29 @@ public class MyService {
     // other methods...
 }
 ```
+### 3. Field Injection
+
+
+```java
+@Service
+public class MyService {
+    @Autowired
+    private SomeDependency someDependency;
+
+    // other methods...
+}
+```
+#### Code Example 4
+
+```java
+@Service
+public class MyService {
+    private SomeDependency someDependency;
+
+    @Autowired
+    public void injectDependency(SomeDependency someDependency) {
+        this.someDependency = someDependency;
+    }
+
+    // other methods...
+}
