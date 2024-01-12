@@ -47,3 +47,22 @@ public class MyService {
 
     // other methods...
 }
+```
+
+### 2. Setter Injection
+
+#### Code Example
+
+```java
+@Service
+public class MyService {
+    private SomeDependency someDependency;
+
+    @Autowired
+    public void setSomeDependency(SomeDependency someDependency) {
+        this.someDependency = someDependency;
+    }
+
+    // other methods...
+}
+```
