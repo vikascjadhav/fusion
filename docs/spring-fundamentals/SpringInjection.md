@@ -5,7 +5,7 @@ So it kind of transitioned into, okay, how can I do the same development without
 Spring is a dependency injection container.  Dependency injection is very simply removing hard-coded wiring in your app and using a framework to inject dependency resources where they are needed.
 
 
-
+## Business Focus
 ![image](https://github.com/vikascjadhav/fusion/assets/3233682/335517f8-b34b-436c-b782-2d9036c45094)
 
 # Spring Dependency Injection Examples
